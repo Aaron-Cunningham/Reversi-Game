@@ -119,7 +119,7 @@ public class Cell {
 
         for (int dir[] : DIRS){
             int temp_score = 0;
-            Cell cell = IsOnBoard(this.getRow() + dir[1], this.getColumn() + dir[1]) ? cells[this.getRow() + dir[0]][this.getColumn() + dir[1]] : null;
+            Cell cell = IsOnBoard(this.getRow() + dir[0], this.getColumn() + dir[1]) ? cells[this.getRow() + dir[0]][this.getColumn() + dir[1]] : null;
             if (cell != null
                     && cell.getValue() != CellStatus.EMPTY
                     && cell.getValue() == opponent) {
