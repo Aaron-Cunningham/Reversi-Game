@@ -117,7 +117,7 @@ public class Cell {
         ArrayList<DirectedMove> moves = new ArrayList<DirectedMove>();
         int[][] DIRS = {{-1,-1}, {-1,0}, {-1,1}, {0,1}, {0,-1}, {1,1}, {1,0}, {1,-1}};
 
-        for (int dir : DIRS){
+        for (int dir[] : DIRS){
             int temp_score = 0;
             Cell cell = IsOnBoard(this.getRow() + dir[1], this.getColumn() + dir[1]) ? cells[this.getRow() + dir[0]][this.getColumn() + dir[1]] : null;
             if (cell != null
