@@ -126,7 +126,7 @@ public class Cell {
                 while (true){
                     cell = IsOnBoard(cell.row + dir[0],cell.column + dir[1]) ? cells[cell.row + dir[0]][cell.column + dir[1]] :  null;
                     temp_score += 1;
-                    if (!(cell != null
+                    if ((cell != null
                             && cell.getValue() != CellStatus.EMPTY)){
                         if (cell.getValue() == colour) {
                             score += temp_score;
