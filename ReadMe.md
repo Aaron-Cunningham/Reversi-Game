@@ -12,7 +12,7 @@ more pieces on the board than the opponent by the end of the game.
 In the following, we briefly outline the rules of the game. At the
 same time, note that this assessment follows the rules of the modern
 version of Reversi which is referred to as Othello on
-[Wikipedia](./Reversi.pdf) (section "Rules")
+[Wikipedia](https://en.wikipedia.org/wiki/Reversi) (section "Rules")
 and these rules will be assumed while marking your assessments.
 
 - Reversi is played by 2 players on an 8x8 board.
