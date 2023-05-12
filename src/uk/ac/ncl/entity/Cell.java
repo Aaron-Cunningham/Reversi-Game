@@ -39,6 +39,14 @@ public class Cell {
      */
     private Move move;
 
+
+    /**
+     * This constructor is representing a cell object
+     * @param value
+     * @param jButton
+     * @param row
+     * @param column
+     */
     public Cell(CellStatus value, JButton jButton, int row, int column){
         this.value = value;
         this.jButton = jButton;
@@ -67,6 +75,7 @@ public class Cell {
 
     /**
      *   Updates the status of the cell
+     * @param value - will set the new value of the cell
      */
     public void setValue(CellStatus value) {
         this.value = value;
